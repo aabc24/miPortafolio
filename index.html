@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Bienvenido a mi portafolio web. Soy un aspirante a desarrollador frontend apasionado por el diseño y la codificación. Aquí puedes encontrar enlaces a mis proyectos y formas de contactarme."
+    />
+    <meta
+      name="keywords"
+      content="Portafolio, Frontend Developer, Proyectos, Contacto, Desarrollador, Web, HTML, CSS, JavaScript"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="build/images/carta-a.webp" type="image/webp" />
+    <!-- 
+      Credits: 
+    Letter a icons created by shohanur.rahman13 - Flaticon
+    Source: https://www.flaticon.es/iconos-gratis/letra-a 
+    -->
+    <title>Portafolio | Ángel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="build/css/style.css" as="style" />
+    <link rel="stylesheet" href="build/css/style.css" />
+    <script defer src="build/js/app.js"></script>
+  </head>
+  <body style="background-color: #fafafa;">
+    <div class="modal"></div>
+
+    <nav class="header padding-inline-2 padding-inline-8">
+      <div class="nav-logo">
+        <a
+          href="https://aabc24.github.io/miPortafolio/"
+          title="Inicio"
+          aria-label="Inicio"
+          >Ángel</a
+        >
+      </div>
+
+      <div class="nav-menu">
+        <ul>
+          <li>
+            <a href="#inicio" title="Inicio" aria-label="Inicio">Inicio</a>
+          </li>
+          <li>
+            <a href="#sobremi" title="Sobre mí" aria-label="Sobre mí"
+              >Sobre mí</a
+            >
+          </li>
+          <li>
+            <a href="#proyectos" title="Proyectos" aria-label="Proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li>
+            <a href="#contacto" title="Contacto" aria-label="Contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <button class="nav-btn-menu" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      </button>
+    </nav>
+
+    <main class="padding-inline-2 padding-inline-8">
+      <section class="featured-box" id="inicio">
+        <div class="featured-image">
+          <div class="image">
+            <img alt="avatar" loading="lazy" src="build/images/avatar.webp" />
+          </div>
+        </div>
+
+        <div class="featured-text">
+          <div class="featured-text-card">
+            <span>Ángel Bracho</span>
+          </div>
+          <div class="featured-text-name">
+            <h1>{Frontend Developer}</h1>
+          </div>
+          <div class="featured-text-btn">
+            <a class="btn" href="#contacto" aria-label="Contactame"
+              >Contactame</a
+            >
+          </div>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/%C3%A1abc24/"
+              class="icon"
+              target="_blank"
+              rel="noopener"
+              aria-label="Perfil de LinkedIn de Ángel Bracho"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+            <a
+              href="https://github.com/aabc24"
+              class="icon"
+              target="_blank"
+              rel="noopener"
+              aria-label="Perfil de GitHub de aabc24"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobremi">
+        <div class="top-section">
+          <h2>Sobre mí</h2>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="about-info">
+              <h3>Mi introducción</h3>
+              <p>
+                ¡Hola! Mi nombre es Ángel Bracho. Soy un aspirante a
+                Desarrollador Frontend que disfruta de la programación y de los
+                desafíos que esta conlleva. Cada día, me esfuerzo por expandir
+                mis habilidades y conocimientos en este campo dinámico y
+                emocionante. Mi objetivo es crear experiencias digitales
+                intuitivas y atractivas que satisfagan las necesidades del
+                usuario y superen sus expectativas. ¡Estoy emocionado por lo que
+                el futuro de la tecnología tiene reservado y estoy listo para
+                ser parte de él!
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="skills-box">
+              <h3>Skills</h3>
+              <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>Tailwind</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="top-section">
+          <h2>Mis proyectos</h2>
+        </div>
+
+        <div class="project-container">
+          <div class="project-box">
+            <div class="project-image">
+              <img src="build/images/1.webp" alt="To Do App" loading="lazy" />
+            </div>
+
+            <div class="project-info">
+              <h3>To Do App</h3>
+              <a
+                href="https://aabc24.github.io/to-do-app/"
+                class="icon"
+                target="_blank"
+                aria-label="Enlace a To Do App"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-box">
+            <div class="project-image">
+              <img src="build/images/2.webp" alt="Weather App" loading="lazy" />
+            </div>
+
+            <div class="project-info">
+              <h3>Weather App</h3>
+              <a
+                href="https://aabc24.github.io/weather-app/"
+                class="icon"
+                target="_blank"
+                aria-label="Enlace a Weather App"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-box">
+            <div class="project-image">
+              <img src="build/images/3.webp" alt="Pokédex" loading="lazy" />
+            </div>
+
+            <div class="project-info">
+              <h3>Pokédex</h3>
+              <a
+                href="https://aabc24.github.io/pokedex/"
+                class="icon"
+                target="_blank"
+                aria-label="Enlace a Pokédex"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto">
+        <div class="top-section">
+          <h2 id="contactoTitulo">Ponte en contacto</h2>
+          <span>Si tienes un proyecto en mente, contáctame aquí</span>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="contact-info">
+              <h3>Encuéntrame <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></h3>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg><a href="mailto:bracho.angel00@gmail.com"
+                  >bracho.angel00@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <form class="form-control">
+              <div class="form-inputs">
+                <input
+                  type="text"
+                  name="nombre"
+                  class="input-field"
+                  placeholder="Nombre"
+                  title="Por favor, introduzca su nombre utilizando solo letras y espacios."
+                  pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                  required
+                  aria-required="true"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  class="input-field"
+                  placeholder="Email"
+                  title="Por favor, introduzca una dirección de correo electrónico válida."
+                  pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-textarea">
+                <textarea
+                  name="mensaje"
+                  placeholder="Mensaje"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <div class="loader">
+                <div></div>
+              </div>
+              <div class="form-btn">
+                <button type="submit" class="btn">
+                  Enviar
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer padding-inline-2 padding-inline-8">
+      <div class="top-section">
+        <h2>Ángel</h2>
+      </div>
+
+      <div class="middle-footer">
+        <ul class="footer-menu">
+          <li class="footer-menu-list">
+            <a href="#inicio" title="Inicio" aria-label="Inicio">Inicio</a>
+          </li>
+          <li class="footer-menu-list">
+            <a href="#sobremi" title="Sobre mí" aria-label="Sobre mí"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="footer-menu-list">
+            <a href="#proyectos" title="Proyectos" aria-label="Proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li class="footer-menu-list">
+            <a href="#contacto" title="Contacto" aria-label="Contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/%C3%A1abc24/"
+          class="icon"
+          target="_blank"
+          rel="noopener"
+          aria-label="Perfil de LinkedIn de Ángel Bracho"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+        <a
+          href="https://github.com/aabc24"
+          class="icon"
+          target="_blank"
+          rel="noopener"
+          aria-label="Perfil de GitHub de aabc24"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+        </a>
+      </div>
+
+      <div class="bottom-footer">
+        <p>Copyright &copy; Ángel Bracho - Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
